@@ -71,11 +71,6 @@ def _load_data(base_dir, filename):
     return data
 
 
-# def _load_testing_data(base_dir):
-#     """Load MNIST testing data"""
-#     x_test = np.load(os.path.join(base_dir, 'x_test_smp.npy'))
-#     return x_test
-    
 def _parse_args():
     parser = argparse.ArgumentParser()
 
