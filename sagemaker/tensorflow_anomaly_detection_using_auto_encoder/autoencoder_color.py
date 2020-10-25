@@ -8,7 +8,6 @@ import json
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 from sklearn.model_selection import train_test_split
 from tensorflow.keras import layers, losses
-from tensorflow.keras.datasets import fashion_mnist
 from tensorflow.keras.models import Model
 
 class Autoencoder(Model):
