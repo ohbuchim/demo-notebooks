@@ -93,7 +93,7 @@ def _parse_args():
 if __name__ == "__main__":
     args, unknown = _parse_args()
     
-    print(os.listdir(args.train))
+#     print(os.listdir(args.train))
 
     train_data = _load_data(args.train, args.train_data_name)
     eval_data = _load_data(args.train, args.valid_data_name)
